@@ -1,0 +1,30 @@
+.footer {
+	padding: 43px 1018px 48px 168px;
+	width: 100%;
+	background:  #FAFAFA;
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.footer__content {
+	display: flex;
+	flex-direction: column;
+	gap: 45px;
+}
+
+.footer__address {
+	display: flex;
+	flex-direction: column;
+	gap: 19px;
+}
+
+.footer__address-title {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.footer__address-text {
+	color: #101010;
+}
