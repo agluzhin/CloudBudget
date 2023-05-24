@@ -53,9 +53,8 @@ ul {
 	color: #FFFFFF;
 }
 
-.menu__list {
+.list {
 	width: 485px;
-	height: 22px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -63,19 +62,16 @@ ul {
 	font-weight: 500;
 }
 
-.menu__list-link {
+.list__link {
 	color: #FFFFFF;
-}
-
-.header-top__button {
-	padding: 12px 31px;
-	border: 1px solid #FFFFFF;
-	border-radius: 6px;
-	background-color: transparent;
 }
 
 .header-top__button-link {
 	color: #FFFFFF;
+	padding: 12px 31px;
+	border: 1px solid #FFFFFF;
+	border-radius: 6px;
+	background-color: transparent;
 }
 
 .header-bottom {
@@ -85,27 +81,25 @@ ul {
 	gap: 39px;
 }
 
-.header-bottom__price-information {
-	width: 540px;
-	height: 248px;
+.header-bottom__content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	gap: 40px;
 
 	color: #FFFFFF;
 }
 
-.header-bottom__title {
+.header-bottom__content-title {
 	font-weight: 700;
 	font-size: 72px;
 	letter-spacing: 0.05em;
 }
 
-.header-bottom__text {
+.header-bottom__content-text {
 	font-weight: 500;
 	font-size: 24px;
-	line-height: 36px;
+		line-height: 36px;
 	text-align: center;
 	white-space: pre-line;
 }

@@ -24,20 +24,20 @@
 				<p class="header-top__logo-text">CLOUDBUDGET</p>
 			</div>
 			<nav class="menu">
-				<ul class="menu__list">
-					<li class="menu__list-item"><a class="menu__list-link" href="#">ОБЗОР</a></li>
-					<li class="menu__list-item"><a class="menu__list-link" href="#">ОСОБЕННОСТИ</a></li>
-					<li class="menu__list-item"><a class="menu__list-link" href="#">ТЕХНОЛОГИЯ</a></li>
-					<li class="menu__list-item"><a class="menu__list-link" href="#">КОНТАКТЫ</a></li>
-					<li class="menu__list-item"><a class="menu__list-link" href="#">ВОЙТИ</a></li>
+				<ul class="list">
+					<li class="list__item"><a class="list__link" href="#">ОБЗОР</a></li>
+					<li class="list__item"><a class="list__link" href="#">ОСОБЕННОСТИ</a></li>
+					<li class="list__item"><a class="list__link" href="#">ТЕХНОЛОГИЯ</a></li>
+					<li class="list__item"><a class="list__link" href="#">КОНТАКТЫ</a></li>
+					<li class="list__item"><a class="list__link" href="#">ВОЙТИ</a></li>
 				</ul>
 			</nav>
-			<button class="header-top__button"><a class="header-top__button-link" href="#">ВХОД</a></button>
+			<a class="header-top__button-link" href="#">ВХОД</a>
 		</div>
 		<div class="header-bottom">
-			<div class="header-bottom__price-information">
-				<h1 class="header-bottom__title">CLOUDBUDGET</h1>
-				<p class="header-bottom__text">Управление бюджетом в для всех. 
+			<div class="header-bottom__content">
+				<h1 class="header-bottom__content-title">CLOUDBUDGET</h1>
+				<p class="header-bottom__content-text">Управление бюджетом в для всех. 
 					Всего 69,95 € в месяц после 7-дневной 
 					пробной версии за 4,99 €</p>
 			</div>
@@ -45,17 +45,17 @@
 		</div>
 	</header>
 	<main class="main">
-		<section class="about">
-			<div class="about__content">
-				<h2 class="about__content-heading">Простое приложение для управления бюджетом</h2>
-				<div class="about__content-text">
-					<p class="about__content-paragraph">Наше приложение создано, чтобы вы могли в реальном времени управлять своим бюджетом и расходами в режиме онлайн с любого устройства. Оно предоставляет подробные отчеты о доходах и расходах с графиками, чтобы вы сразу могли увидеть расходы и бюджет. Читайте ниже, чтобы узнать больше.</p>
-					<a class="about__content-link" href="#">Узнать подробнее</a>
+		<div class="main__block">
+			<div class="main__content">
+				<h2 class="main__content-heading">Простое приложение для управления бюджетом</h2>
+				<div class="main__content-text">
+					<p class="main__content-text-paragraph">Наше приложение создано, чтобы вы могли в реальном времени управлять своим бюджетом и расходами в режиме онлайн с любого устройства. Оно предоставляет подробные отчеты о доходах и расходах с графиками, чтобы вы сразу могли увидеть расходы и бюджет. Читайте ниже, чтобы узнать больше.</p>
+					<a class="main__content-text-link" href="#">Узнать подробнее</a>
 				</div>
 			</div>
-			<img class="about__image" src="img/main/about__image.png" alt="about_image">
-		</section>
-		<section class="opportunity">
+			<img class="main__block-image" src="img/main/about__image.png" alt="about_image">
+		</div>
+		<div class="opportunity">
 			<h2 class="opportunity__heading">Возможности</h2>
 			<div class="opportunity__content">
 				<div class="content-card content-card_first">
@@ -86,8 +86,8 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<section class="technologies">
+		</div>
+		<div class="technologies">
 			<h2 class="technologies__heading">Технологии</h2>
 			<div class="technologies__content">
 				<div class="technologies__content-card">
@@ -131,21 +131,21 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<section class="links">
-			<div class="links__content">
-				<div class="links__content-information">
-					<h2 class="links__content-information-title">Cосредосточьтесь на экономии денег</h2>
-					<p class="links__content-information-text">Мы помогаем вам отслеживать ваши привычки в расходах, чтобы вы могли легко определить и сократить ненужные расходы. Просто присоединяйтесь сегодня, чтобы начать!</p>
-				</div>
-				<div class="links__content-links">
-					<a class="links__content-links-attach" href="#"><img class="links__content-links-icon" src="img/main/links_icon-1.svg" alt="playmarket_icon"></a>
-					<a class="links__content-links-attach" href="#"><img class="links__content-links-icon" src="img/main/links_icon-2.svg" alt="appstore_icon"></a>
+		</div>
+		<div class="main__block main__block_links">
+			<div class="main__content main__content_links">
+				<h2 class="main__content-heading main__content-heading_links">Cосредосточьтесь на экономии денег</h2>
+				<div class="main__content-text">
+					<p class="main__content-text-paragraph main__content-text-paragraph_links">Мы помогаем вам отслеживать ваши привычки в расходах, чтобы вы могли легко определить и сократить ненужные расходы. Просто присоединяйтесь сегодня, чтобы начать!</p>
+					<div class="main__content-app">
+						<a class="main__content-app-link" href="#"><img class="main__content-app-link-icon" src="img/main/links_icon-1.svg" alt="playmarket_icon"></a>
+						<a class="links__content-app-link" href="#"><img class="links__content-app-link-icon" src="img/main/links_icon-2.svg" alt="appstore_icon"></a>
+					</div>
 				</div>
 			</div>
-			<img class="about__image" src="img/main/links_image.png" alt="">
-		</section>
-		<section class="contacts">
+			<img class="main__block-image" src="img/main/links_image.png" alt="">
+		</div>
+		<div class="contacts">
 			<div class="contacts__content">
 				<h2 class="contacts__content-title">Напишите нам</h2>
 				<p class="contacts__content-text">Остались вопросы или опасения? Просто заполните форму ниже, и наша служба поддержки свяжется с вами в течении 24 часов.</p>
@@ -155,7 +155,7 @@
 				<p class="contacts__input-phone">Телефон</p>
 				<button class="contacts__input-button"><a class="contacts__input-button-link" href="#">ОТПРАВИТЬ</a></button>
 			</div>
-		</section>
+		</div>
 	</main>
 	<footer class="footer">
 		<div class="footer__content">
